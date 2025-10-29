@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATS Friendly Resume | Munaf F</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+  <div class="container">
+    <header>
+      <h1>MUNAF F</h1>
+      <p>Email: abdulmunaf9080@gmail.com | Phone: +91 9080568321</p>
+      <p>Location: Palladam, Tiruppur. </p>
+    </header>
+
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>
+        Enthusiastic and detail-oriented Full Stack Developer with a passion for clean code and
+        modern web technologies. Skilled in HTML, CSS, JavaScript, and React. Strong problem-solving
+        mindset and a quick learner.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills and Language</h2>
+      <ul>
+        <li>HTML5, CSS, JavaScript.</li>
+        <li>Git, GitHub, VS Code.</li>
+        <li>MS Excel, Power point, Word, Power Query.</li>
+        <li>Tamil, English, Hindi and Urdu.</li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>Work Experience</h2>
+      <div class="job">
+      <div class="job-header">
+        <h3>Salesclerk, National Watch Company – Palladam</h3>
+        <span class="date">07.2023 – 01.2024</span>
+      </div>
+      <p>Monitored inventory levels, conducted regular stock checks, and coordinated with the back-office team to maintain product availability.</p>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Quality Checking, Kalavathi Knitting – Tiruppur</h3>
+        <span class="date">02.2024 – 07.2025</span>
+      </div>
+      <p>Conducted quality inspection of knitted garments to ensure they met production and export standards.</p>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Agriculture Survey Assistant, VAO Office – Kalipalayam</h3>
+        <span class="date">Present</span>
+      </div>
+      <p>Currently working as an Agriculture Survey Assistant at the VAO Office, responsible for land record verification, crop data collection, and report preparation.</p>
+    </div>
+
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+
+      <div class="edu-item">
+        <div class="edu-left">
+            <h3>PTA Arts and Science College</h3>
+            <p>Bachelor of English Literature - 83%</p>
+        </div>
+        <div class="edu-right">
+            <p>2020 - 2023</p>
+        </div>
+      </div>
+ 
+      <div class="edu-item">
+        <div class="edu-left">
+            <h3>Government Higher Secondary School</h3>
+            <p>HSC - 60%</p>
+            <p>SSLC - 63%</p>
+        </div>
+        <div class="edu-right">
+            <p>2020</p>
+            <p>2018</p>
+            
+        </div>
+
+        </div>
+      
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Built a personal portfolio using HTML, CSS, and JS.</li>
+        <li><strong>New steps wear:</strong> Small advertisement project using HTML and CSS.</li>
+      </ul>
+    </section>
+
+    <section class="Seminars and Workshops Attended">
+        <h2>Seminars and Workshops Attended</h2>
+        <ul>
+            <li>Rajiv Gandhi national institute of youth Development (RGNIYD) three day training program on soft skills 10th - 12th March 2022.</li>
+            <li>National Level Workshop on "soft skills- A Need of new Era"7th October 2022.</li>
+        </ul>
+    </section>
+
+    <section class="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Career Essential in Data analysis by Microsoft and Linkedin - <a href="./data analysis by microsoft.jpg">Link</a></li>
+        <li>Tamil Nadu - IBM skills Build Employability Skills</li>
+      </ul>
+    </section>
+    <section class="Declaration">
+        <h2>Declaration</h2>
+        <p>I hearby declare that the information provided above is true and correct to the best of my knowledge and belief.I take full responsibility for the accuracy of the information mentioned.</p>
+        <div class="bottom-section">
+            <div class="left">
+                <p>Place: Palladam</p>
+                <p>Date: <span id="current-date"></span></p>
+            </div>
+            <div class="right">
+                <p>Singnature</p>
+                <p><strong>MUNAF F</strong></p>
+            </div>
+        </div>            
+    </section>
+    <script>
+        //JavaScript to automatically display today's date
+        const today = new Date();
+        const options = {day:'2-digit',month:'2-digit',year:'numeric'};
+
+        document.getElementById("current-date").textContent =today.toLocaleDateString("en-GB",options);
+        
+    </script>
+  </div>
+</body>
+</html>
